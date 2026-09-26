@@ -79,6 +79,35 @@ RSpec.describe PostgresServer do
       end
     end
 
+    describe "#open_session_failure_page_threshold" do
+      let(:private_subnet) {
+        PrivateSubnet.create(
+          name: "gcp-pg-subnet", project:, location:,
+          net4: "10.0.0.0/26", net6: "fd10:9b0b:6b4b:8fbb::/64",
+        )
+      }
+
+      before do
+        resource.update(private_subnet_id: private_subnet.id)
+      end
+
+      it "is the default when the subnet has no VPC" do
+        expect(postgres_server.open_session_failure_page_threshold).to eq(MonitorableResource::OPEN_SESSION_FAILURE_PAGE_THRESHOLD)
+      end
+
+      it "is the default when the subnet's VPC is shared" do
+        vpc = GcpVpc.create(project_id: project.id, location_id: location.id, name: "shared-vpc")
+        DB[:private_subnet_gcp_vpc].insert(private_subnet_id: private_subnet.id, gcp_vpc_id: vpc.id)
+        expect(postgres_server.open_session_failure_page_threshold).to eq(MonitorableResource::OPEN_SESSION_FAILURE_PAGE_THRESHOLD)
+      end
+
+      it "is longer when the subnet has a dedicated VPC" do
+        vpc = GcpVpc.create(project_id: project.id, location_id: location.id, name: "dedicated-vpc", dedicated_for_subnet_id: private_subnet.id)
+        DB[:private_subnet_gcp_vpc].insert(private_subnet_id: private_subnet.id, gcp_vpc_id: vpc.id)
+        expect(postgres_server.open_session_failure_page_threshold).to eq(described_class::Gcp::DEDICATED_VPC_OPEN_SESSION_FAILURE_PAGE_THRESHOLD)
+      end
+    end
+
     describe "#refresh_walg_blob_storage_credentials" do
       before { Sshable.create_with_id(vm) }
 

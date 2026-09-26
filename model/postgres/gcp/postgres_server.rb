@@ -2,11 +2,24 @@
 
 class PostgresServer < Sequel::Model
   module Gcp
+    # Servers on a dedicated VPC lose SSH for longer while the VPC's
+    # firewall and route state is reconciled, so wait longer before paging.
+    DEDICATED_VPC_OPEN_SESSION_FAILURE_PAGE_THRESHOLD = 10 * 60
+
     private
 
     def gcp_add_provider_configs(configs)
       # No GCP-specific Postgres configs needed initially
       nil
+    end
+
+    def gcp_open_session_failure_page_threshold
+      private_subnet = resource.private_subnet
+      if private_subnet.gcp_vpc&.dedicated_for_subnet_id == private_subnet.id
+        DEDICATED_VPC_OPEN_SESSION_FAILURE_PAGE_THRESHOLD
+      else
+        MonitorableResource::OPEN_SESSION_FAILURE_PAGE_THRESHOLD
+      end
     end
 
     def gcp_refresh_walg_blob_storage_credentials
