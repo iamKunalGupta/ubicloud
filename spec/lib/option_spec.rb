@@ -48,6 +48,7 @@ RSpec.describe Option do
         "c3-standard",
         "c3d-standard", "c3d-highmem",
         "z3-standardlssd", "z3-highlssd",
+        "n2-standard-1xssd", "n2-highmem-1xssd", "n2-highmem-2xssd", "n2-highmem-4xssd", "n2-highmem-8xssd",
       ])
     end
 
@@ -91,11 +92,25 @@ RSpec.describe Option do
       expect(described_class.gcp_instance_type_name("z3-highlssd", 32)).to eq("z3-highmem-32-highlssd")
     end
 
+    it "omits the suffix for families whose local SSDs are attached explicitly" do
+      expect(described_class.gcp_instance_type_name("n2-highmem-4xssd", 8)).to eq("n2-highmem-8")
+      expect(described_class.gcp_instance_type_name("n2-standard-1xssd", 96)).to eq("n2-standard-96")
+      expect(described_class.gcp_instance_type_name("n2-highmem-2xssd", 2, lssd: false)).to eq("n2-highmem-2")
+    end
+
+    it "counts the local SSDs to attach explicitly, none for bundled lssd machine types" do
+      expect(described_class.gcp_local_ssd_count("n2-highmem-4xssd", 4)).to eq(4)
+      expect(described_class.gcp_local_ssd_count("n2-standard-1xssd", 96)).to eq(24)
+      expect(described_class.gcp_local_ssd_count("c4a-standard", 8)).to eq(0)
+      expect(described_class.gcp_local_ssd_count("z3-highlssd", 88)).to eq(0)
+    end
+
     it "terminates rather than live migrates above the local SSD migration limit" do
       expect(described_class.gcp_on_host_maintenance("z3-highlssd", 44)).to eq("MIGRATE")
       expect(described_class.gcp_on_host_maintenance("z3-highlssd", 88)).to eq("TERMINATE")
       expect(described_class.gcp_on_host_maintenance("z3-standardlssd", 176)).to eq("TERMINATE")
       expect(described_class.gcp_on_host_maintenance("c4-standard", 288)).to eq("MIGRATE")
+      expect(described_class.gcp_on_host_maintenance("n2-highmem-8xssd", 16)).to eq("MIGRATE")
     end
 
     it "raises rather than building a machine type for an unknown family" do
@@ -115,6 +130,11 @@ RSpec.describe Option do
         "c3d-highmem" => {8 => [375], 16 => [375], 30 => [750], 60 => [1500], 90 => [3000], 180 => [6000], 360 => [12000]},
         "z3-standardlssd" => {14 => [3000], 22 => [6000], 44 => [9000], 88 => [18000], 176 => [36000]},
         "z3-highlssd" => {8 => [3000], 16 => [6000], 22 => [9000], 32 => [12000], 44 => [18000], 88 => [36000]},
+        "n2-standard-1xssd" => {4 => [375], 8 => [750], 16 => [1500], 32 => [3000], 48 => [6000], 64 => [6000], 96 => [9000]},
+        "n2-highmem-1xssd" => {4 => [375], 8 => [750], 16 => [1500], 32 => [3000], 48 => [6000], 64 => [6000], 96 => [9000]},
+        "n2-highmem-2xssd" => {2 => [375], 4 => [750], 8 => [1500], 16 => [3000], 32 => [6000], 48 => [9000]},
+        "n2-highmem-4xssd" => {2 => [750], 4 => [1500], 8 => [3000], 16 => [6000], 32 => [9000]},
+        "n2-highmem-8xssd" => {2 => [1500], 4 => [3000], 8 => [6000], 16 => [9000]},
       })
     end
 

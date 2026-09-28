@@ -9608,6 +9608,161 @@ providers:
               memory_gib: 1152
               storage_size_options:
               - 18000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-asia-east1:
         families:
           c3d-highmem:
@@ -9909,6 +10064,161 @@ providers:
               memory_gib: 1536
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-asia-east2:
         families:
           c4-highmem:
@@ -10015,6 +10325,161 @@ providers:
               memory_gib: 1152
               storage_size_options:
               - 18000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-asia-northeast1:
         families:
           c3-standard:
@@ -10311,6 +10776,161 @@ providers:
               memory_gib: 1536
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -10404,6 +11024,161 @@ providers:
               memory_gib: 704
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-asia-northeast3:
         families:
           c4-highmem:
@@ -10510,6 +11285,161 @@ providers:
               memory_gib: 1152
               storage_size_options:
               - 18000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-asia-south1:
         families:
           c3-standard:
@@ -10759,6 +11689,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -10924,6 +12009,161 @@ providers:
               memory_gib: 1152
               storage_size_options:
               - 18000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-asia-southeast1:
         families:
           c3-standard:
@@ -11294,6 +12534,161 @@ providers:
               memory_gib: 1536
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -11533,6 +12928,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-asia-southeast3:
         families:
           c3d-highmem:
@@ -11888,6 +13438,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -12211,6 +13916,161 @@ providers:
               memory_gib: 1536
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-europe-central2:
         families:
           c4a-highmem:
@@ -12287,6 +14147,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-europe-north1:
         families:
           c3d-standard:
@@ -12400,6 +14415,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-europe-north2:
         families:
           c3d-highmem:
@@ -12940,6 +15110,161 @@ providers:
               memory_gib: 1536
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-europe-west1:
         families:
           c3-standard:
@@ -13273,6 +15598,161 @@ providers:
               memory_gib: 1536
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -13418,6 +15898,161 @@ providers:
               memory_gib: 1536
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -13477,6 +16112,163 @@ providers:
               memory_gib: 1408
               storage_size_options:
               - 36000
+      gcp-europe-west12:
+        families:
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-europe-west2:
         families:
           c3-standard:
@@ -13773,6 +16565,161 @@ providers:
               memory_gib: 1536
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -14081,6 +17028,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -14473,6 +17575,161 @@ providers:
               memory_gib: 1536
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -14712,6 +17969,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -14877,6 +18289,161 @@ providers:
               memory_gib: 1152
               storage_size_options:
               - 18000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-europe-west9:
         families:
           c4-highmem:
@@ -14983,6 +18550,161 @@ providers:
               memory_gib: 1152
               storage_size_options:
               - 18000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-me-central1:
         families:
           c4a-highmem:
@@ -15059,6 +18781,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-me-central2:
         families:
           c3-standard:
@@ -15130,6 +19007,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-me-west1:
         families:
           c3-standard:
@@ -15238,6 +19270,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-northamerica-northeast1:
         families:
           c3-standard:
@@ -15450,6 +19637,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-northamerica-northeast2:
         families:
           c4-highmem:
@@ -15630,6 +19972,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-northamerica-south1:
         families:
           c3d-highmem:
@@ -16155,6 +20652,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-southamerica-west1:
         families:
           c4-highmem:
@@ -16335,6 +20987,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-us-central1:
         families:
           c3-standard:
@@ -16705,6 +21512,161 @@ providers:
               memory_gib: 1536
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -17134,6 +22096,161 @@ providers:
               memory_gib: 1536
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -17526,6 +22643,161 @@ providers:
               memory_gib: 1536
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -17881,6 +23153,161 @@ providers:
               memory_gib: 1536
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -18152,6 +23579,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -18423,6 +24005,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
           z3-highlssd:
             sizes:
             - name: z3-highlssd-8
@@ -18662,6 +24399,161 @@ providers:
               memory_gib: 288
               storage_size_options:
               - 6000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-us-west3:
         families:
           c4-highmem:
@@ -18852,6 +24744,161 @@ providers:
               memory_gib: 1536
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000
       gcp-us-west4:
         families:
           c3-standard:
@@ -19185,3 +25232,158 @@ providers:
               memory_gib: 1536
               storage_size_options:
               - 12000
+          n2-highmem-1xssd:
+            sizes:
+            - name: n2-highmem-1xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 375
+            - name: n2-highmem-1xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 750
+            - name: n2-highmem-1xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-1xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-1xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-64
+              vcpus: 64
+              memory_gib: 512
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-1xssd-96
+              vcpus: 96
+              memory_gib: 768
+              storage_size_options:
+              - 9000
+          n2-highmem-2xssd:
+            sizes:
+            - name: n2-highmem-2xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-highmem-2xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-highmem-2xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-2xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-2xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-2xssd-48
+              vcpus: 48
+              memory_gib: 384
+              storage_size_options:
+              - 9000
+          n2-highmem-4xssd:
+            sizes:
+            - name: n2-highmem-4xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 750
+            - name: n2-highmem-4xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-4xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-4xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-4xssd-32
+              vcpus: 32
+              memory_gib: 256
+              storage_size_options:
+              - 9000
+          n2-highmem-8xssd:
+            sizes:
+            - name: n2-highmem-8xssd-2
+              vcpus: 2
+              memory_gib: 16
+              storage_size_options:
+              - 1500
+            - name: n2-highmem-8xssd-4
+              vcpus: 4
+              memory_gib: 32
+              storage_size_options:
+              - 3000
+            - name: n2-highmem-8xssd-8
+              vcpus: 8
+              memory_gib: 64
+              storage_size_options:
+              - 6000
+            - name: n2-highmem-8xssd-16
+              vcpus: 16
+              memory_gib: 128
+              storage_size_options:
+              - 9000
+          n2-standard-1xssd:
+            sizes:
+            - name: n2-standard-1xssd-4
+              vcpus: 4
+              memory_gib: 16
+              storage_size_options:
+              - 375
+            - name: n2-standard-1xssd-8
+              vcpus: 8
+              memory_gib: 32
+              storage_size_options:
+              - 750
+            - name: n2-standard-1xssd-16
+              vcpus: 16
+              memory_gib: 64
+              storage_size_options:
+              - 1500
+            - name: n2-standard-1xssd-32
+              vcpus: 32
+              memory_gib: 128
+              storage_size_options:
+              - 3000
+            - name: n2-standard-1xssd-48
+              vcpus: 48
+              memory_gib: 192
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-64
+              vcpus: 64
+              memory_gib: 256
+              storage_size_options:
+              - 6000
+            - name: n2-standard-1xssd-96
+              vcpus: 96
+              memory_gib: 384
+              storage_size_options:
+              - 9000

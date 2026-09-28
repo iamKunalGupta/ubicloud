@@ -2054,6 +2054,13 @@ RSpec.describe PostgresResource do
       expect(gcp_family_names(project)).to include("z3-highlssd")
     end
 
+    it "hides the n2 xssd families until the project enables them" do
+      expect(gcp_family_names(project)).not_to include("n2-highmem-4xssd")
+
+      project.set_ff_enable_n2_highmem_4xssd(true)
+      expect(gcp_family_names(project)).to include("n2-highmem-4xssd")
+    end
+
     it "lets a project opt out of a default-enabled GCP family" do
       project.set_ff_enable_c4a_standard(false)
 

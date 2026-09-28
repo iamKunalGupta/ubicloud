@@ -904,6 +904,16 @@ Allowed Option Values:
           z3-standardlssd-14 z3-standardlssd-22 z3-standardlssd-44
           z3-standardlssd-88 z3-standardlssd-176 z3-highlssd-8 z3-highlssd-16
           z3-highlssd-22 z3-highlssd-32 z3-highlssd-44 z3-highlssd-88
+          n2-standard-1xssd-4 n2-standard-1xssd-8 n2-standard-1xssd-16
+          n2-standard-1xssd-32 n2-standard-1xssd-48 n2-standard-1xssd-64
+          n2-standard-1xssd-96 n2-highmem-1xssd-4 n2-highmem-1xssd-8
+          n2-highmem-1xssd-16 n2-highmem-1xssd-32 n2-highmem-1xssd-48
+          n2-highmem-1xssd-64 n2-highmem-1xssd-96 n2-highmem-2xssd-2
+          n2-highmem-2xssd-4 n2-highmem-2xssd-8 n2-highmem-2xssd-16
+          n2-highmem-2xssd-32 n2-highmem-2xssd-48 n2-highmem-4xssd-2
+          n2-highmem-4xssd-4 n2-highmem-4xssd-8 n2-highmem-4xssd-16
+          n2-highmem-4xssd-32 n2-highmem-8xssd-2 n2-highmem-8xssd-4
+          n2-highmem-8xssd-8 n2-highmem-8xssd-16
     Storage Size: 16 32 64 128 256 512 1024 2048 4096
     Version: 18 17 16
 
@@ -1047,6 +1057,16 @@ Allowed Option Values:
           z3-standardlssd-14 z3-standardlssd-22 z3-standardlssd-44
           z3-standardlssd-88 z3-standardlssd-176 z3-highlssd-8 z3-highlssd-16
           z3-highlssd-22 z3-highlssd-32 z3-highlssd-44 z3-highlssd-88
+          n2-standard-1xssd-4 n2-standard-1xssd-8 n2-standard-1xssd-16
+          n2-standard-1xssd-32 n2-standard-1xssd-48 n2-standard-1xssd-64
+          n2-standard-1xssd-96 n2-highmem-1xssd-4 n2-highmem-1xssd-8
+          n2-highmem-1xssd-16 n2-highmem-1xssd-32 n2-highmem-1xssd-48
+          n2-highmem-1xssd-64 n2-highmem-1xssd-96 n2-highmem-2xssd-2
+          n2-highmem-2xssd-4 n2-highmem-2xssd-8 n2-highmem-2xssd-16
+          n2-highmem-2xssd-32 n2-highmem-2xssd-48 n2-highmem-4xssd-2
+          n2-highmem-4xssd-4 n2-highmem-4xssd-8 n2-highmem-4xssd-16
+          n2-highmem-4xssd-32 n2-highmem-8xssd-2 n2-highmem-8xssd-4
+          n2-highmem-8xssd-8 n2-highmem-8xssd-16
     Storage Size: 16 32 64 128 256 512 1024 2048 4096
 
 

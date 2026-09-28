@@ -359,6 +359,48 @@ RSpec.describe Prog::Vm::Gcp::Nexus do
       expect { nx.start }.to hop("wait_create_op")
     end
 
+    it "declares SCRATCH local SSDs for families without a bundled lssd machine type" do
+      nic.strand.update(label: "wait")
+      ensure_nic_gcp_resource(nic)
+
+      nx.vm.update(family: "n2-highmem-4xssd", vcpus: 4)
+      VmStorageVolume.create(vm_id: vm.id, boot: false, size_gib: 1500, disk_index: 1)
+
+      op = instance_double(Gapic::GenericLRO::Operation, name: "op-scratch-1")
+      expect(compute_client).to receive(:insert) do |args|
+        expect(args[:instance_resource].machine_type).to end_with("machineTypes/n2-highmem-4")
+        disks = args[:instance_resource].disks
+        expect(disks.length).to eq(5)
+        expect(disks[0].boot).to be true
+        scratch = disks[1..]
+        expect(scratch.map(&:type)).to all(eq("SCRATCH"))
+        expect(scratch.map(&:interface)).to all(eq("NVME"))
+        expect(scratch.map(&:device_name)).to eq(["local-nvme-ssd-0", "local-nvme-ssd-1", "local-nvme-ssd-2", "local-nvme-ssd-3"])
+        expect(scratch.map { it.initialize_params.disk_type }).to all(end_with("diskTypes/local-ssd"))
+        op
+      end
+
+      expect { nx.start }.to hop("wait_create_op")
+    end
+
+    it "declares no SCRATCH disks for a suffix-less family with only a boot volume" do
+      nic.strand.update(label: "wait")
+      ensure_nic_gcp_resource(nic)
+
+      nx.vm.update(family: "n2-highmem-4xssd", vcpus: 4)
+
+      op = instance_double(Gapic::GenericLRO::Operation, name: "op-scratch-boot-only")
+      expect(compute_client).to receive(:insert) do |args|
+        expect(args[:instance_resource].machine_type).to end_with("machineTypes/n2-highmem-4")
+        disks = args[:instance_resource].disks
+        expect(disks.length).to eq(1)
+        expect(disks[0].boot).to be true
+        op
+      end
+
+      expect { nx.start }.to hop("wait_create_op")
+    end
+
     it "hops to wait_instance_created when instance already exists" do
       nic.strand.update(label: "wait")
       ensure_nic_gcp_resource(nic)

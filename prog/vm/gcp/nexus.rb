@@ -46,9 +46,9 @@ class Prog::Vm::Gcp::Nexus < Prog::Base
       ],
     }.to_yaml.delete_prefix("---\n")
 
-    # Only the boot disk is declared; GCE attaches the local SSDs bundled with
-    # an -lssd machine type itself. The guest sees them as
-    # /dev/disk/by-id/google-local-nvme-ssd-N (see
+    # GCE attaches the local SSDs bundled with an -lssd machine type itself;
+    # suffix-less families (n2) get them declared below. Either way the guest
+    # sees /dev/disk/by-id/google-local-nvme-ssd-N (see
     # PostgresServer::Gcp#gcp_storage_device_paths).
     boot_volume = vm.vm_storage_volumes_dataset.order(:disk_index).first(boot: true)
     disks = [
@@ -61,6 +61,20 @@ class Prog::Vm::Gcp::Nexus < Prog::Base
         ),
       ),
     ]
+
+    if data_volumes?
+      Option.gcp_local_ssd_count(vm.family, vm.vcpus).times do |i|
+        disks << Google::Cloud::Compute::V1::AttachedDisk.new(
+          auto_delete: true,
+          type: "SCRATCH",
+          interface: "NVME",
+          device_name: "local-nvme-ssd-#{i}",
+          initialize_params: Google::Cloud::Compute::V1::AttachedDiskInitializeParams.new(
+            disk_type: "zones/#{gcp_zone}/diskTypes/local-ssd",
+          ),
+        )
+      end
+    end
 
     gcp_res = user_nic.nic_gcp_resource
     instance_resource = Google::Cloud::Compute::V1::Instance.new(
@@ -347,9 +361,15 @@ class Prog::Vm::Gcp::Nexus < Prog::Base
     @gcp_region ||= vm.location.name.delete_prefix("gcp-")
   end
 
+  # Non-boot (data) volumes select the -lssd machine type for suffixed
+  # families and the explicit SCRATCH disks for suffix-less ones.
+  def data_volumes?
+    return @data_volumes if defined?(@data_volumes)
+    @data_volumes = !vm.vm_storage_volumes_dataset.where(boot: false).empty?
+  end
+
   def gce_machine_type
-    # -lssd is needed only when there are non-boot (data) volumes
-    @gce_machine_type ||= Option.gcp_instance_type_name(vm.family, vm.vcpus, lssd: !vm.vm_storage_volumes_dataset.where(boot: false).empty?)
+    @gce_machine_type ||= Option.gcp_instance_type_name(vm.family, vm.vcpus, lssd: data_volumes?)
   end
 
   GCE_BOOT_IMAGE_FAMILIES = {

@@ -22,12 +22,19 @@ class GcpInstanceAvailabilityGenerator
     @credentials_path = credentials_path
   end
 
-  # GCE machine type name => [our family, vcpu count], e.g.
-  # "z3-highmem-44-standardlssd" => ["z3-standard", 44]
+  # GCE machine type name => list of [our family, vcpu count], e.g.
+  # "z3-highmem-44-standardlssd" => [["z3-standardlssd", 44]]. Suffix-less
+  # families share machine type names: "n2-highmem-8" backs several of them.
+  #
+  # For suffixed families the machine type bundles its local SSDs, so a zone
+  # listing the type also has the storage. For suffix-less families the
+  # listing only proves the machine type; that the local-ssd disk type exists
+  # there and that shapes[vcpu] disks can be attached is taken from the N2
+  # docs, not checked per zone.
   def machine_type_index
     @machine_type_index ||= Option::GCP_FAMILY_VM_CONFIG.each_with_object({}) do |(family, config), index|
       config[:shapes].each_key do |vcpu|
-        index[Option.gcp_instance_type_name(family, vcpu)] = [family, vcpu]
+        (index[Option.gcp_instance_type_name(family, vcpu)] ||= []) << [family, vcpu]
       end
     end
   end
@@ -45,9 +52,9 @@ class GcpInstanceAvailabilityGenerator
 
       region = zone.sub(/-[a-z]\z/, "")
       Array(scoped_list.machine_types).each do |machine_type|
-        next unless (family, vcpu = machine_type_index[machine_type.name])
-
-        found[region][family][vcpu] << zone
+        machine_type_index[machine_type.name]&.each do |family, vcpu|
+          found[region][family][vcpu] << zone
+        end
       end
     end
 
